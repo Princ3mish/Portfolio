@@ -1,55 +1,105 @@
-# 🖥️ Personal Portfolio
+# 🚀 Prince Mishra — Portfolio
 
-A sleek, modern, and responsive portfolio bootstrapped with [create-t3-app](https://create.t3.gg/).
+> Personal portfolio website built with Next.js 14, Tailwind CSS, Framer Motion, and Locomotive Scroll.
 
-[Website Preview](https://github.com/wendoj/portfolio/assets/77996774/b73b02d7-0657-41e3-9124-e6d04b17fe93)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://github.com/Princ3mish/Portfolio)
+[![GitHub](https://img.shields.io/badge/GitHub-Princ3mish-black?style=for-the-badge&logo=github)](https://github.com/Princ3mish)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-pmish04-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/pmish04)
 
-[🔗 Link to portfolio](https://wendoj.vercel.app)
+---
 
-All you need to know about me, my projects and skills can be found here. Personalize the portfolio by modifying `src/pages/index.tsx` and `src/styles/globals.css` to emulate your own portfolio. Made some improvements and want to share? Open a pull request.
-For any issues, feel free to report them here.
+## 👤 About Me
 
-## 🎉 Features
-- **Responsive Design**: The portfolio is designed to be fully responsive, providing an optimal viewing experience across a wide range of devices from desktops to mobile phones.
-- **Easy Customization**: The portfolio structure is straightforward and well organized, making it easy to customize and showcase your unique set of skills and projects.
-- **Stunning UI/UX Design**: The portfolio boasts a sleek and modern design, using smooth animations to capture the attention of potential employers or clients.
-- **Interactive UI**: Utilizing modern web development techniques, the portfolio offers an interactive user interface that enhances user experience, such as `locomotive-scroll` and `framer-motion`.
+I'm **Prince Mishra**, a developer from Bengaluru with a habit of picking hard problems and refusing to put them down. My work spans AI-driven telehealth, generative platforms, and enterprise tooling — built with the MERN stack, sprinkled with OpenAI, and held together by a deep obsession with performance. When I'm not coding, I'm on LeetCode making sure the fundamentals never get rusty.
 
-## 🚀 Getting Started
+- 📍 Bengaluru, Karnataka, India
+- 🎓 B.E. Information Science — JSS Academy of Technical Education (CGPA: 8.75)
+- 📧 [princ3mish@gmail.com](mailto:princ3mish@gmail.com)
+- 🏆 LeetCode Knight — [leetcode.com/u/Princ3M](https://leetcode.com/u/Princ3M/)
 
-### Prerequisites
-To get started with this portfolio, ensure that you have the following installed on your system:
-- Node.js
-- npm
-- git
+---
 
-## 🛠️ Installation
-Follow the steps below to clone and run this project on your local system:
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|---|---|
+| **Frontend** | React.js, Next.js, Tailwind CSS, Framer Motion |
+| **Backend** | Node.js, Express.js, Nest.js |
+| **Databases** | PostgreSQL, MySQL, MongoDB, Firebase |
+| **AI/ML** | OpenAI API, Gemini API |
+| **DevOps** | Docker, AWS, Git |
+| **Languages** | JavaScript, TypeScript, Java |
+
+---
+
+## 📁 Projects
+
+| Project | Description | Stack |
+|---|---|---|
+| [SEHAT2.0](https://github.com/Princ3mish/SEHAT2.0) | AI-driven telehealth MERN platform | React.js, JavaScript |
+| [NotGpt](https://github.com/Princ3mish/NotGpt) | AI chat suite with GPT + DALL·E | Node.js, Express.js |
+| [SiteBuilder](https://github.com/Princ3mish/SiteBuilder) | AI-powered website builder from prompts | TypeScript, React.js |
+| [Browsermcp](https://github.com/Princ3mish/Browsermcp) | Browser automation via MCP | MCP, LLM |
+| [Task-Manager](https://github.com/Princ3mish/Task-Manager) | Full-stack task management app | JavaScript, Express.js |
+| [Practice-Nets](https://github.com/Princ3mish/Practice-Nets) | Networking practice exercises | Java |
+
+---
+
+## 🏆 Achievements
+
+- 🏆 **LeetCode Knight** — Top competitive coder, consistent solver of medium/hard problems
+- 🥈 **Runner-Up — Advaya National Hackathon** — 2nd place among 102 teams, built AI healthcare portal in 24h
+- 🥇 **1st Place — TOPCODERS DSA Competition** — Won among 514 participants at JSSATE Bengaluru
+
+---
+
+## 🎓 Education
+
+| Degree | Institution | Year | Score |
+|---|---|---|---|
+| B.E. Information Science | JSS Academy of Technical Education, Bengaluru | 2023–2027 | CGPA 8.75 |
+| Class 12 — CBSE | Birla School Pilani, Rajasthan | 2022 | 94.6% |
+| Class 10 — CBSE | St. Joseph's School, Rihand, UP | 2020 | 97.2% |
+
+---
+
+## 💼 Experience
+
+**IT Intern — NTPC Limited, Patratu** *(Jan 2026 – Feb 2026)*
+- Analyzed enterprise IT infrastructure including MPLS, core servers, and departmental switches
+- Assessed an ASP.NET MVC application in C#/SQL Server that reduced manual communication time by 80%
+- Documented network topology and server configurations for future infrastructure audits
+
+---
+
+## 🚀 Running Locally
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/wendoj/developer-portfolio.git
+git clone https://github.com/Princ3mish/Portfolio.git
+cd Portfolio
 
-# Navigate to the project directory
-$ cd developer-portfolio
-
-# Remove current origin repository
-$ git remote remove origin
-```
-
-<br />
-
-Then install the required dependencies:
-```bash
 # Install dependencies
-$ npm install
+pnpm install
 
-# Start the development server:
-$ npm run dev
+# Start development server (webpack mode)
+pnpm run dev
 ```
-Now, open your browser and navigate to `http://localhost:3000` to view your portfolio live.
 
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## How do I deploy this?
+---
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+## 📬 Contact
+
+| Platform | Link |
+|---|---|
+| Email | [princ3mish@gmail.com](mailto:princ3mish@gmail.com) |
+| LinkedIn | [linkedin.com/in/pmish04](https://www.linkedin.com/in/pmish04) |
+| Instagram | [@princ3_msh](https://www.instagram.com/princ3_msh?igsh=azF5aThhMHQxZWxt) |
+| Resume | [Google Drive](https://drive.google.com/drive/folders/1GO-hKM7snIUxQQv2pdHKVI3wK4ih-LbD?usp=sharing) |
+| LeetCode | [Princ3M](https://leetcode.com/u/Princ3M/) |
+
+---
+
+<p align="center">Made with ❤️ by <a href="https://github.com/Princ3mish">Prince Mishra</a></p>
