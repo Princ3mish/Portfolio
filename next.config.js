@@ -1,19 +1,22 @@
-import WithPWA from "next-pwa";
+import WithPWA from "@ducanh2912/next-pwa";
 
 const withPWA = WithPWA({
   dest: "public",
   disable: process.env.NODE_ENV === "development",
-  register: true,
-  scope: "/",
-  sw: "service-worker.js",
+  cacheOnFrontEndNav: true,
+  aggressiveFrontEndNavCaching: true,
+  reloadOnOnline: true,
+  workboxOptions: {
+    disableDevLogs: true,
+  },
 });
 
 /**
  * @type {import('next').NextConfig}
  */
-// @ts-ignore
 const config = withPWA({
   reactStrictMode: true,
+  turbopack: {},
 });
 
 export default config;
